@@ -65,7 +65,7 @@ def get_variables():
     for fil in filters:
         print(fil)
         filter_list.append(fil[0])
-
+        
     attr_filter = input("Please specify attribute filter: ")
     
     if attr_filter in filter_list:
